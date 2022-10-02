@@ -5,12 +5,14 @@
 body {
     color: black;
     font-size: 14px;
+    background-size: 100%;
     line-height: 1.4;
     font-family: 'Roboto Sans', sans-serif;
 }
 
 header {
     background-color: #686767;
+    display:list-item;
 }
 
 h1, h2, h3 , h4, h5, h6 {
@@ -19,22 +21,48 @@ h1, h2, h3 , h4, h5, h6 {
     margin-bottom: 25;
 }
 
+.logo {
+    max-width: 100px;
+}
+
+.navegador {
+    display: flex;
+}
+
 .navegador izquierdo {
     float: left;
-    text-align: right;
+    text-align: center;
     padding-left: 100px;
 }
 
 .navegador derecho {
+    font-size: 12px;
     float: right;
     text-align: right;
     padding-right: 100px;
+}
+
+.presentacion {
+    background-image: url(/fotos/ba2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentacion .info {
+    max-width: 300px;
+    text-align: right;
+    color: #fff;
 }
 
 .caja {
     display: inline-block;
     margin: 10;
     padding: 30;
+}
+
+.oradores {
+    text-align: center;
 }
 
 /** tarjetas*/
@@ -44,7 +72,7 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 .card {
-    width: 250px;
+    width: 200px;
     background-color: #fff;
     display: inline-block;
     margin-bottom: 16px;
