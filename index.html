@@ -29,7 +29,7 @@
                     <li class="nav-item"><h2>Conf Bs As</h2></li>
                 </ul>
             </div>
-            <div>
+            <div class="navegador derecho">
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="#" class="nav-link">La conferencia</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Los oradores</a></li>
@@ -41,7 +41,7 @@
         </nav>
     </header>
     <main>
-        <section class="presentacion">
+        <div class="presentacion">
             <div class="info">
                 <h1>Conf Bs As</h1>
                 <p>Buenos Aires llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad elconocimiento y la experiencia con los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de la UNTREF y a oradores de primer nivel que tenemos para ti. Te esperamos!</p>
@@ -51,7 +51,7 @@
                 </p>
             </div>
             <div></div>
-        </section>
+        </div>
         <div class="oradores">
             <p>conocé a los</p>
             <h2>Oradores</h2>
@@ -95,6 +95,21 @@
             <p>conviertete en un</p>
             <h2>Orador</h2>
             <p>Anotate como orador para una <u>charla ignite</u>. Cuéntanos de que quieres hablar!</p>
+        </div>
+        <div class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+        </div>
+        <div class="mb-2">    
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="Sobre que es tu ARTE ?"></textarea>
+        </div>
+            <p>Recuerda incluir un titulo para tu ARTE</p>
+            <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+            <label class="btn btn-success container-fluid " for="btn-check-2">ENVIAR</label> 
         </div>
     </main>
 </body>

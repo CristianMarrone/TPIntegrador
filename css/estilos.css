@@ -26,6 +26,7 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 .navegador {
+    color: #fff;
     display: flex;
 }
 
@@ -36,29 +37,28 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 .navegador derecho {
+    color: #fff;
     font-size: 12px;
     float: right;
     text-align: right;
     padding-right: 100px;
 }
 
+.nav-link {
+    color: #fff;
+}
+
 .presentacion {
     background-image: url(/fotos/ba2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
 }
 
 .presentacion .info {
     max-width: 300px;
-    text-align: right;
+    text-align: left;
     color: #fff;
-}
-
-.caja {
-    display: inline-block;
-    margin: 10;
-    padding: 30;
 }
 
 .oradores {
@@ -68,6 +68,8 @@ h1, h2, h3 , h4, h5, h6 {
 /** tarjetas*/
 
 .cards {
+    display: flex;
+    align-items: center;                   
     padding: 16px;
 }
 
