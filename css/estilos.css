@@ -42,6 +42,8 @@ h1, h2, h3 , h4, h5, h6 {
     float: right;
     text-align: right;
     padding-right: 100px;
+    display: flex;
+    justify-content: end;
 }
 
 .nav-link {
@@ -53,12 +55,14 @@ h1, h2, h3 , h4, h5, h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
+    display: flex;
+    justify-content: end;
 }
 
 .presentacion .info {
     max-width: 300px;
     text-align: left;
-    color: #fff;
+    color:#fff;
 }
 
 .oradores {
@@ -69,7 +73,7 @@ h1, h2, h3 , h4, h5, h6 {
 
 .cards {
     display: flex;
-    align-items: center;                   
+    justify-content: center;                   
     padding: 16px;
 }
 
@@ -104,3 +108,49 @@ h1, h2, h3 , h4, h5, h6 {
     font-size: 16px;
     line-height: 1.3;
 }
+
+.imagen-partida {
+    display: flex;
+    justify-content: center;                   
+}
+
+.imagen-izq {
+    width: 50%;
+    background-color: rgb(69, 68, 68);
+    display: inline-block;
+}
+
+.octubre {
+    width: 50%;
+    background-color: rgb(69, 68, 68);
+    display: inline-block;
+}
+
+.imagen-izq .izq img {
+    inline-size: auto;
+    width: 100%;
+    height: 100%;
+    float: center;
+}
+
+.octubre .top img {
+    inline-size: auto;
+    width: 100%;
+    height: 100%;
+    float: center;
+}
+
+.octubre .text h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.octubre .text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
